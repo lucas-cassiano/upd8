@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Client extends Controller
+class ClientController extends Controller
 {
 
     public function cadastro(Request $request){
