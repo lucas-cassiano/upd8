@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::post('/client/cadastro', [Client::class, 'cadastro']);
+Route::get('/client/filtro', [Client::class, 'filtro']);
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
